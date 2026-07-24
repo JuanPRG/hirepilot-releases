@@ -34,3 +34,10 @@ digest reported by GitHub before opening an installer.
 After the first manual installation, use **Check for Updates** from the
 HirePilot tray menu. Updates are user-confirmed and preserve the current
 user's `.hirepilot` configuration and files.
+
+## Privacy And Support
+
+Read the [HirePilot Privacy Policy](PRIVACY.md) before configuring a hosted AI
+provider. For support, use
+[GitHub Issues](https://github.com/JuanPRG/hirepilot-releases/issues) without
+posting API keys, resume contents, or other sensitive personal information.
