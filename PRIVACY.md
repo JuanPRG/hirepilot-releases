@@ -96,6 +96,23 @@ Data is shared only with AI providers configured by the user when needed to
 perform a requested task, or when the user intentionally shares generated
 files or diagnostics.
 
+## Chrome Web Store Limited Use
+
+HirePilot's use and transfer of information received from Google APIs complies
+with the Chrome Web Store User Data Policy, including its Limited Use
+requirements:
+
+- Data is used only to provide or improve HirePilot's single purpose and
+  user-facing features.
+- Data is transferred only when necessary to provide those features, when the
+  user intentionally requests a transfer, for security, or as required by law.
+- Data is never used or transferred for personalized, retargeted, or
+  interest-based advertising.
+- Humans do not read user data as part of normal operation. Human access would
+  occur only with the user's specific consent for support, when necessary for
+  security, when required by law, or after data is aggregated and anonymized
+  for permitted internal operations.
+
 ## Security
 
 The companion backend listens on the loopback interface, rejects ordinary
