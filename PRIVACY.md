@@ -115,10 +115,10 @@ requirements:
 
 ## Security
 
-The companion backend listens on the loopback interface, rejects ordinary
-website origins, and limits file handoff to generated document locations.
-Hosted-provider traffic uses HTTPS. No security measure is absolute, and users
-should protect their Windows account and provider API keys.
+The companion backend listens on the computer's loopback interface, and the
+extension's host permission is limited to `127.0.0.1`. Hosted-provider traffic
+uses HTTPS. No security measure is absolute, and users should protect their
+Windows account and provider API keys.
 
 ## User Choices
 
