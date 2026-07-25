@@ -1,39 +1,52 @@
 # HirePilot Releases
 
-Official Windows installer distribution for HirePilot.
+Official Windows companion distribution for HirePilot.
 
-This repository is intentionally binary-only. It contains versioned Windows
-installers and checksum files used by HirePilot's assisted updater; private
-source history, API keys, profiles, resumes, and generated application files
-are never published here.
+HirePilot has two separately updated components:
 
-## Download
+1. The HirePilot Chrome extension, installed through the Chrome Web Store.
+2. The Windows companion published here, which provides local setup, document
+   generation, tray controls, updates, and the `hirepilot://start` launcher.
+
+The public installer does not bundle or sideload a Chrome extension. The
+official Chrome Web Store listing link will be added here after Google assigns
+the public item URL.
+
+This repository is intentionally binary-only. It never contains private source
+history, API keys, profiles, resumes, generated application files, or the
+private closed-test extension bundle.
+
+## Download The Windows Companion
 
 Use the [latest stable release](https://github.com/JuanPRG/hirepilot-releases/releases/latest)
-and download the exact versioned installer named
-`HirePilot-Setup-v<version>.exe`.
+and download the exact installer named `HirePilot-Setup-v<version>.exe`.
 
-Closed-test installers are currently unsigned. Windows may therefore show a
-SmartScreen or UAC warning. Do not install files obtained from mirrors or with
-a different filename.
+Public release assets never use `Closed-Test` or `Validation` in their
+filenames. The free-project installer is currently unsigned, so Windows may
+show SmartScreen and UAC warnings. Do not install copies obtained from mirrors.
+
+After installation, run **HirePilot Setup Console** once from the Start Menu.
+The Chrome extension can then start the companion when needed.
 
 ## Verify The Installer
 
-Each release includes a matching `.exe.sha256` file. In PowerShell:
+Each release includes a matching `.exe.sha256` file. For example:
 
 ```powershell
-Get-FileHash .\HirePilot-Setup-v2.2.0.exe -Algorithm SHA256
-Get-Content .\HirePilot-Setup-v2.2.0.exe.sha256
+$version = "2.2.2"
+Get-FileHash ".\HirePilot-Setup-v$version.exe" -Algorithm SHA256
+Get-Content ".\HirePilot-Setup-v$version.exe.sha256"
 ```
 
 The two SHA256 values must match. The HirePilot tray updater also verifies the
-digest reported by GitHub before opening an installer.
+GitHub asset digest before opening an installer.
 
 ## Updates
 
-After the first manual installation, use **Check for Updates** from the
-HirePilot tray menu. Updates are user-confirmed and preserve the current
-user's `.hirepilot` configuration and files.
+Chrome updates the extension through the Chrome Web Store. Use **Check for
+Updates** from the HirePilot tray menu to update the Windows companion.
+Companion updates are user-confirmed and preserve `.hirepilot` configuration,
+profiles, source resumes, preferences, logs, and existing Downloads.
 
 ## Privacy And Support
 
