@@ -15,6 +15,8 @@ request, assisting with application-form filling.
   information needed for that task to the AI provider that the user configured.
 - HirePilot does not sell personal data, use it for advertising, or track
   browsing activity.
+- HirePilot does not collect click, scroll, keystroke, mouse-position, or
+  network-monitoring activity and has no analytics or telemetry.
 
 ## Data HirePilot Processes
 
