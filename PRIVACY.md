@@ -1,6 +1,6 @@
 # HirePilot Privacy Policy
 
-Effective date: July 23, 2026
+Effective date: July 25, 2026
 
 HirePilot is a Chrome extension and local Windows companion application for
 tailoring resumes and cover letters to a job posting and, at the user's
@@ -13,8 +13,8 @@ request, assisting with application-form filling.
   the user's own computer at `http://127.0.0.1:7321`.
 - When a user requests AI generation or matching, the local backend sends the
   information needed for that task to the AI provider that the user configured.
-- HirePilot does not sell personal data, use it for advertising, or track
-  browsing activity.
+- HirePilot does not sell personal data, use it for advertising, monitor
+  browsing in the background, or build a browsing-history profile.
 - HirePilot does not collect click, scroll, keystroke, mouse-position, or
   network-monitoring activity and has no analytics or telemetry.
 
