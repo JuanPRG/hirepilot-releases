@@ -8,9 +8,10 @@ HirePilot has two separately updated components:
 2. The Windows companion published here, which provides local setup, document
    generation, tray controls, updates, and the `hirepilot://start` launcher.
 
-The public installer does not bundle or sideload a Chrome extension. The
-official Chrome Web Store listing link will be added here after Google assigns
-the public item URL.
+The public installer does not bundle or sideload a Chrome extension. Install
+the official
+[HirePilot Chrome extension](https://chromewebstore.google.com/detail/chmibpoikgjckekkgpoeejdnmempllkh)
+through the Chrome Web Store.
 
 This repository is intentionally binary-only. It never contains private source
 history, API keys, profiles, resumes, generated application files, or the
